@@ -1,0 +1,625 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16110 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\UnityEditor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity_Project/VRMuseum/VRMuseum/VRLAB
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62056
+Successfully changed project path to: D:/Unity_Project/VRMuseum/VRMuseum/VRLAB
+D:/Unity_Project/VRMuseum/VRMuseum/VRLAB
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35616] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1094587040 [EditorId] 1094587040 [Version] 1048832 [Id] WindowsEditor(7,Desktop_AkcDev) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35616] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1094587040 [EditorId] 1094587040 [Version] 1048832 [Id] WindowsEditor(7,Desktop_AkcDev) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 37.77 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.33 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path D:/Unity/UnityEditor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_Project/VRMuseum/VRMuseum/VRLAB/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   31.0.15.5244
+Initialize mono
+Mono path[0] = 'D:/Unity/UnityEditor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/UnityEditor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/UnityEditor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/UnityEditor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/UnityEditor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017996 seconds.
+- Loaded All Assemblies, in  0.512 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 451 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (173ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (831ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (576ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.887 seconds
+Refreshing native plugins compatible for Editor in 25.15 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.856 seconds
+Domain Reload Profiling: 1735ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (558ms)
+		LoadAssemblies (449ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (857ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 21.50 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 4466 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (77.2 KB). Loaded Objects now: 4943.
+Memory consumption went from 190.3 MB to 190.2 MB.
+Total: 3.781000 ms (FindLiveObjects: 0.383300 ms CreateObjectMapping: 0.133300 ms MarkObjects: 3.085000 ms  DeleteObjects: 0.177800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13270.334938 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/buddhist_stella/buddhist_stella.FBX
+  artifactKey: Guid(30e2e46dae82bcf458f1a88e9d17d891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/buddhist_stella/buddhist_stella.FBX using Guid(30e2e46dae82bcf458f1a88e9d17d891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac975758c64c89f716732ceaf1368b2') in 0.176222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.480988 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/cambodian_buddhist_statue1/cambodian_buddhist_statue1.FBX
+  artifactKey: Guid(fc73d39964cf60a48b732139ef3acdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/cambodian_buddhist_statue1/cambodian_buddhist_statue1.FBX using Guid(fc73d39964cf60a48b732139ef3acdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68852490d77f880a6c9a3ba795c99085') in 0.076356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.457197 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/chinese_buddha2/buddha_maitreya_tag.FBX
+  artifactKey: Guid(60bae33684b20a74e82b81808a60b5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/chinese_buddha2/buddha_maitreya_tag.FBX using Guid(60bae33684b20a74e82b81808a60b5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4513c35a31f6af87912b5b4190e20962') in 0.060219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 88.819526 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/chinese_buddha1/buddha_amitaba_tag.FBX
+  artifactKey: Guid(f016d6c9c6993ea45846496a67e16a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/chinese_buddha1/buddha_amitaba_tag.FBX using Guid(f016d6c9c6993ea45846496a67e16a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c51343e9bdaca41f70c6f04775e723a') in 0.080670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.951725 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/chinese_statue2/chinese_statue2.FBX
+  artifactKey: Guid(0250a14caa75b0340b67e22d3bd81265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/chinese_statue2/chinese_statue2.FBX using Guid(0250a14caa75b0340b67e22d3bd81265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55172406951461bf0574b7e6c69f300c') in 0.134320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/chinese_statue2/chinese_statue2_normal.tga
+  artifactKey: Guid(cdee6be48cc507b4baabb423b6ec61c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/chinese_statue2/chinese_statue2_normal.tga using Guid(cdee6be48cc507b4baabb423b6ec61c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726651dc2c109e4b62ec9749637d4d34') in 0.066758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.620434 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/india_stella_manjuvajra/india_stella_manjuvajra.FBX
+  artifactKey: Guid(dbe283a54ccabc94faa1c3c67c9f47e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/india_stella_manjuvajra/india_stella_manjuvajra.FBX using Guid(dbe283a54ccabc94faa1c3c67c9f47e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ada9016ddc3b73f65aa5f12fded24e') in 0.101789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/india_stella_manjuvajra/manjuvarja_tag1.FBX
+  artifactKey: Guid(b94c8ed377248824da9194837a264440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/art/Asian_Assets/india_stella_manjuvajra/manjuvarja_tag1.FBX using Guid(b94c8ed377248824da9194837a264440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab14e719e2635a91f313f937401ce149') in 0.026937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.986597 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-0_comp_dir.png
+  artifactKey: Guid(cc17d0a2a2e3d8f4a9fa95b942bfd354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-0_comp_dir.png using Guid(cc17d0a2a2e3d8f4a9fa95b942bfd354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329dea286107e2f4fba6c44f705cf508') in 0.054646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-1_comp_dir.png
+  artifactKey: Guid(7a93ebab21b87f94381b1a8bcdd38e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-1_comp_dir.png using Guid(7a93ebab21b87f94381b1a8bcdd38e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c5967be7a8fd39c5e868f359d30c97') in 0.050596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-4_comp_light.exr
+  artifactKey: Guid(947e5e738d1ef214380c3cd4bd88258c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-4_comp_light.exr using Guid(947e5e738d1ef214380c3cd4bd88258c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b555dfd27c3a26caf2009718ee8f07c') in 0.073308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-1_comp_light.exr
+  artifactKey: Guid(bd549e0a3e289444386026c0c7bed4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-1_comp_light.exr using Guid(bd549e0a3e289444386026c0c7bed4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c76d02592be9c50014867375564c4d6') in 0.055630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-2_comp_light.exr
+  artifactKey: Guid(7f754de35a50bc340b25629f1d85922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-2_comp_light.exr using Guid(7f754de35a50bc340b25629f1d85922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e9c94b309ac6473151a6c7b5d3a7bb') in 0.063060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-5_comp_dir.png
+  artifactKey: Guid(d04a10405d73cfb42bf3c6b603b25068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_day_baked/Lightmap-5_comp_dir.png using Guid(d04a10405d73cfb42bf3c6b603b25068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641fb855a66f9a4f11fea347d22a6ab7') in 0.059359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.617044 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/AO_walls.FBX
+  artifactKey: Guid(bbfa6ee2d73b89045af5ac22ea2131e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/AO_walls.FBX using Guid(bbfa6ee2d73b89045af5ac22ea2131e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e595db9e82dcfceda7a3d93e904af7') in 0.120585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/column_2.FBX
+  artifactKey: Guid(7fcbef24c3da45847b0c5a702b158120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/column_2.FBX using Guid(7fcbef24c3da45847b0c5a702b158120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15fd5427dec24c5b162187d73835f21') in 0.132987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/lamp.FBX
+  artifactKey: Guid(a9950d30134f13f459f09e1db221ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/lamp.FBX using Guid(a9950d30134f13f459f09e1db221ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f8173df7bf3962eb720153f5e4ac22') in 0.012341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/column_1.FBX
+  artifactKey: Guid(2bd69d382258e594a97cdc13777620aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/column_1.FBX using Guid(2bd69d382258e594a97cdc13777620aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ed46f32b2c5782e64a60e979e39370') in 0.079318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/inscription_egypt.FBX
+  artifactKey: Guid(4c23dcd90b7e91c478f2d7dfb34720fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/inscription_egypt.FBX using Guid(4c23dcd90b7e91c478f2d7dfb34720fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f922788409d173ebd6b209e538d2a1') in 0.014058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.560754 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-0_comp_dir.png
+  artifactKey: Guid(b4e641aa609554d47bddf4261202af3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-0_comp_dir.png using Guid(b4e641aa609554d47bddf4261202af3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ef491185a1cdd089dbc979a5e3aa63') in 0.055922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-2_comp_dir.png
+  artifactKey: Guid(dd22df1ab9b26a2489b4b6fc4bf9fc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-2_comp_dir.png using Guid(dd22df1ab9b26a2489b4b6fc4bf9fc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ce165dd34924c9a496d698c018c579') in 0.058484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-2_comp_light.exr
+  artifactKey: Guid(8b42e06f6974a4b438ad076d3792691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-2_comp_light.exr using Guid(8b42e06f6974a4b438ad076d3792691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73298ed272f1b04c063d755a21be8312') in 0.054956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-1_comp_light.exr
+  artifactKey: Guid(2d2573c78ab3f54428bf1cf7fdad25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-1_comp_light.exr using Guid(2d2573c78ab3f54428bf1cf7fdad25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9712dc43aa8121e3208b70ec2c8117be') in 0.050642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-3_comp_light.exr
+  artifactKey: Guid(70941fd848ac4f847af38499fc6015e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-3_comp_light.exr using Guid(70941fd848ac4f847af38499fc6015e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e187f5bff7ba232de8e708be0dbad27') in 0.050953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-1_comp_dir.png
+  artifactKey: Guid(8f12092c59619f245bbcaad27782a196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-1_comp_dir.png using Guid(8f12092c59619f245bbcaad27782a196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2965f5e236076b8f8ab2122e3cc7074f') in 0.043168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.214885 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/museum_space.FBX
+  artifactKey: Guid(f2752e3e723c56c48b2ff5321b39cf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/museum_space.FBX using Guid(f2752e3e723c56c48b2ff5321b39cf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29378400e3eb3e2495c8890c9b021c6') in 0.623618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 0.903154 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/om.FBX
+  artifactKey: Guid(755cb2f59d34d50468ab641d86b85fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/om.FBX using Guid(755cb2f59d34d50468ab641d86b85fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62193d160b94979f85d34009e718b9b') in 0.012941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.020033 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/pedestal_1.FBX
+  artifactKey: Guid(a454af6beb9b5814c9332533883d5ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/pedestal_1.FBX using Guid(a454af6beb9b5814c9332533883d5ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44af79be0e8dd50f92bc5dbd7a473d34') in 0.011608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.019496 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/pedestal_long.FBX
+  artifactKey: Guid(fcd444c0ad462734cb42ca85e8576677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/pedestal_long.FBX using Guid(fcd444c0ad462734cb42ca85e8576677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660e7a70cfddcd12cc161db7c5b86456') in 0.079072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.261759 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/rectangle_pedestal1.FBX
+  artifactKey: Guid(3d172ab5fc1066242b441d2e144780b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/rectangle_pedestal1.FBX using Guid(3d172ab5fc1066242b441d2e144780b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69db6b0660e39cb28c036a3a7169c70') in 0.248502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/rectangle_pedestal4.FBX
+  artifactKey: Guid(35806a723ef981540af3ef1d8c276619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/rectangle_pedestal4.FBX using Guid(35806a723ef981540af3ef1d8c276619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27799c776016a96e0957409106a28d54') in 0.135538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.484428 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/round_pedestal1.FBX
+  artifactKey: Guid(80515e1548cba604c80d181f3ce0ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/round_pedestal1.FBX using Guid(80515e1548cba604c80d181f3ce0ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90eec7260d3899732f7ccc14e4905b09') in 0.130249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.183006 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/wall_frame.FBX
+  artifactKey: Guid(996e513d1f5686b4eb3ddecef2e3a9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/museum_environment/wall_frame.FBX using Guid(996e513d1f5686b4eb3ddecef2e3a9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e3191ec005a99386c5f30a4f8b81b7') in 0.079346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.833150 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-8_comp_dir.png
+  artifactKey: Guid(bfb15064632ed1f448f905793a733d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-8_comp_dir.png using Guid(bfb15064632ed1f448f905793a733d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359c898d7a6916cdcb48e8e1c481d87f') in 0.060683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-14_comp_light.exr
+  artifactKey: Guid(2b44b708af2f15349891bceecf28efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-14_comp_light.exr using Guid(2b44b708af2f15349891bceecf28efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cf2227cacb33e3772f10a7d80bedda') in 0.118546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-17_comp_light.exr
+  artifactKey: Guid(9832ddbec1623184e8b16b56392ca810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-17_comp_light.exr using Guid(9832ddbec1623184e8b16b56392ca810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b739cda97caefbf67136f94684625d6f') in 0.053999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-9_comp_light.exr
+  artifactKey: Guid(b2ed9af6014bd9d459ed4ebfc94ace62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_baked/Lightmap-9_comp_light.exr using Guid(b2ed9af6014bd9d459ed4ebfc94ace62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4331ce42b57fd6785038d189256b1e') in 0.053776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.418386 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_realtime/ReflectionProbe-11.exr
+  artifactKey: Guid(0674203be19ad184f85d419b418eefbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Museum_night_realtime/ReflectionProbe-11.exr using Guid(0674203be19ad184f85d419b418eefbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e264708e2b917f30393c4d4e30c00c') in 0.031657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.489558 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/Prefabs/Fly_camera.prefab
+  artifactKey: Guid(fe57e21695fd48b488b2680d87d118f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/Prefabs/Fly_camera.prefab using Guid(fe57e21695fd48b488b2680d87d118f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdc49f74d6516c2ef44d40ca7a6d65c') in 0.002932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.850124 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/textures/column_diffuse.tga
+  artifactKey: Guid(3e28e6c3a1cffcd4a9adf84a40e6fd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/textures/column_diffuse.tga using Guid(3e28e6c3a1cffcd4a9adf84a40e6fd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef4397c1410e37a32cec9956063d83e') in 0.096686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/textures/descriptions_diffuse.tga
+  artifactKey: Guid(a3e3a0e2382c42243b3eaa2bc5e9edfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/textures/descriptions_diffuse.tga using Guid(a3e3a0e2382c42243b3eaa2bc5e9edfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e901dfe7333c0fbf842b2697f044f0') in 0.080795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/textures/floor_marble1_normal.tga
+  artifactKey: Guid(d3a07cf55f145714f89e61ab535cc071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/textures/floor_marble1_normal.tga using Guid(d3a07cf55f145714f89e61ab535cc071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49cbe5564959229652ba2ac96d28df2') in 0.030928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.107741 seconds.
+  path: Assets/Museum_VR_Ancient_Cultures_Pack/textures/stucco2_normal.tga
+  artifactKey: Guid(f138eee16ed85cc43998d1506763f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum_VR_Ancient_Cultures_Pack/textures/stucco2_normal.tga using Guid(f138eee16ed85cc43998d1506763f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96ab04c3112b63de265188b5cd4ddd9') in 0.062568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 163.951234 seconds.
+  path: Assets/Model/20111130113932140194.jpg
+  artifactKey: Guid(847c6ef9b71f4284d8752ea952ce1927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/20111130113932140194.jpg using Guid(847c6ef9b71f4284d8752ea952ce1927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fdb3aa631d6e4725e385e4beba7c60') in 0.029652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Model/file.fbx
+  artifactKey: Guid(beca8c2189e004746a2f92f6e1667ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/file.fbx using Guid(beca8c2189e004746a2f92f6e1667ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2757deda5870f2926391922501410c4') in 0.044883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 19.487882 seconds.
+  path: Assets/Model/file.fbx
+  artifactKey: Guid(beca8c2189e004746a2f92f6e1667ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/file.fbx using Guid(beca8c2189e004746a2f92f6e1667ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b3ccdd41e7272aef157d7b215c9165') in 0.055802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.90 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 4996.
+Memory consumption went from 116.9 MB to 116.9 MB.
+Total: 4.376900 ms (FindLiveObjects: 0.341900 ms CreateObjectMapping: 0.127400 ms MarkObjects: 3.879400 ms  DeleteObjects: 0.026700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 36.36 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 4996.
+Memory consumption went from 117.2 MB to 117.2 MB.
+Total: 6.213900 ms (FindLiveObjects: 0.390500 ms CreateObjectMapping: 0.150600 ms MarkObjects: 5.627400 ms  DeleteObjects: 0.043300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
