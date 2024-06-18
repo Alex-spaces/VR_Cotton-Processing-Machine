@@ -41,6 +41,18 @@ Blender
 
 
 
+### 개발자 참고사항：
+
+- 이 게임은 Oculus SDK를 기반으로 개발되었습니다. 첫 번째 제한으로 인해 저희 팀에서는 Oculus Quest2에서만 테스트했습니다. 다른 장치에서의 호환성을 테스트하고 피드백을 제공해 주시기 바랍니다. Github에서 다른 장치용으로 개발한 호환성 패치를 업로드하실 수도 있습니다.
+
+- 나머지 필수 플러그인과 SDK는 코드 저장소에 포함되어 있으므로 이를 복제하기만 하면 됩니다.
+
+- Github 코드 저장소에 업로드되는 파일 수와 크기에는 제한이 있으므로, 프로젝트를 재현하고 계속 개발하려면 코드 저장소에 있는 모든 파일을 폴더에 복제하는 것 외에 다운로드도 필요합니다. 추가로 업로드한 library.rar 파일을 복제한 프로젝트 폴더의 루트 디렉터리에 압축을 풀고 폴더 이름을 library로 지정합니다.
+
+  library.rar[[点击下载]](https://drive.google.com/file/d/1ErL7yP842ORYXQEWpsrppADA9tSwlAxB/view?usp=sharing)
+
+  
+
 ### 사용자/개발자 매뉴얼：
 
 [사용자 매뉴얼](https://docs.google.com/document/d/1wQn-8_dyuR4SbHM5cXFLYIwzdT4T2qztbjWA3LVNWqU/edit?usp=sharing)
