@@ -49,7 +49,7 @@ Blender
 
 - Github 코드 저장소에 업로드되는 파일 수와 크기에는 제한이 있으므로, 프로젝트를 재현하고 계속 개발하려면 코드 저장소에 있는 모든 파일을 폴더에 복제하는 것 외에 다운로드도 필요합니다. 추가로 업로드한 library.rar 파일을 복제한 프로젝트 폴더의 루트 디렉터리에 압축을 풀고 폴더 이름을 library로 지정합니다.
 
-  library.rar[[点击下载]](https://drive.google.com/file/d/1ErL7yP842ORYXQEWpsrppADA9tSwlAxB/view?usp=sharing)
+  library.rar[[다운로드]](https://drive.google.com/file/d/1ErL7yP842ORYXQEWpsrppADA9tSwlAxB/view?usp=sharing)
 
   
 
